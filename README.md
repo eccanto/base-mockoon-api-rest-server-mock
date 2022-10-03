@@ -52,7 +52,7 @@ The [Developers](#developers) section describes how to modify the mock data and 
 docker-compose up -d
 ```
 
-The mock server is now available on http://localhost:3001.
+The mock server is now available on http://localhost:3000.
 
 ## Test mock server
 
