@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  mockoon:
+    image: mockoon/cli:2.1.0
+    command: mockoon-cli start --port 3000 --data /data/jwt_users/mock_data.json
+    ports:
+      - "3000:3000"
+    volumes:
+      - type: bind
+        source: ./examples
+        target: /data
+    networks:
+      internal_network:
+
+networks:
+  internal_network:

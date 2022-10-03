@@ -1,0 +1,56 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Mock API",
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "http://localhost:3000/api"
+        }
+    ],
+    "paths": {
+        "/token": {
+            "get": {
+                "description": "Generate JWT",
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application/json": {}
+                        },
+                        "headers": {}
+                    },
+                    "401": {
+                        "description": "",
+                        "content": {
+                            "application/json": {}
+                        },
+                        "headers": {}
+                    }
+                }
+            }
+        },
+        "/users": {
+            "get": {
+                "description": "Generate 2 random users",
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application/json": {}
+                        },
+                        "headers": {}
+                    },
+                    "401": {
+                        "description": "",
+                        "content": {
+                            "application/json": {}
+                        },
+                        "headers": {}
+                    }
+                }
+            }
+        }
+    }
+}
