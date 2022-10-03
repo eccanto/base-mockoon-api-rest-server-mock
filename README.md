@@ -4,7 +4,7 @@
 
 This project will be used to perform load testing with different tools in my following projects:
 
-- [Base - load testing example using Locust](IN-PROGRESS)
+- [Base - load testing example using Locust](https://github.com/eccanto/base-mockoon-api-rest-server-mock)
 
 # Table of contents
 
