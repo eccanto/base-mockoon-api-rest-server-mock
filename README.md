@@ -2,7 +2,7 @@
 
 # REST API server mock using Mockoon
 
-This project will be used to perform load testing with different tools in my following projects:
+This project will be used to perform performance testing with different tools in the following projects:
 
 - [Base - load testing example using Locust](https://github.com/eccanto/base-locust-load-test)
 
@@ -43,13 +43,13 @@ The [Developers](#developers) section describes how to modify the mock data and 
 
 ## Requirements
 
-- [Docker +20.10](https://docs.docker.com/engine/install/ubuntu/)
-- [docker-compose +1.29](https://docs.docker.com/desktop/install/linux-install/)
+- [Docker +24.0.7](https://docs.docker.com/engine/install/ubuntu/)
+- [Docker compose +2.21.0](https://docs.docker.com/compose/install/linux/)
 
 ## Start mock server
 
 ```bash
-docker-compose up -d
+docker compose up --detach
 ```
 
 The mock server is now available on http://localhost:3000.

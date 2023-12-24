@@ -2,7 +2,6 @@
 
 set -euo pipefail
 
-
 if ! command -v jq &> /dev/null; then
     sudo apt install -y jq
 fi
