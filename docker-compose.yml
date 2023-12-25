@@ -1,10 +1,7 @@
 version: '3.9'
 
 services:
-  mockoon:
-    image: mockoon/cli:6.0.1
-    command: --port 3000 --data /data/jwt_users/mock_data.json
-    ports:
-      - '3000:3000'
-    volumes:
-      - ./examples/:/data/
+    mockoon:
+        build: .
+        ports:
+            - '3000:3000'
